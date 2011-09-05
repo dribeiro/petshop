@@ -1,0 +1,163 @@
+@CHARSET "ISO-8859-1";
+
+/* Anterior
+http://www.maujor.com/tutorial/divthinking.php */
+
+body {
+	font-family: 'Comic Sans MS';
+	background: #fff top no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#headerwrapper {
+	background: #ecf3f9;
+	width: 100%;
+	height: 174px;
+}
+#header {
+	width: 100%;
+	height: 174px;
+	background: 	display: block;
+	margin: 0 auto;
+}
+
+#logo h1 {
+	width: 500px;
+	height: 110px;
+	display: block;
+	margin: 0 0 0 0px;
+	padding: 10px;
+	text-indent: -1px;
+	text-align: center;
+	text-shadow: blue;
+	line-height:110px;
+	background: url(/images/cachorro.jpg)  no-repeat center top transparent;
+}
+#logo h1 a {
+	width: 500px;
+	height: 174px;
+	display: block;
+	text-decoration: none;
+	text-align: right;
+}
+
+
+#topo{
+	width:auto;
+	height:110px;
+	background-color:#fff;
+	border-top:1px solid #666;
+	border-bottom:2px dotted #666;
+	margin-bottom: 5px;
+	
+	font-family: 'Comic Sans MS';
+	color: #0096b2;
+	text-decoration: none;
+	word-spacing: normal;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+	font-size: 1.3em;
+}
+
+/* Link */
+a:link, a:visited {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none
+}
+
+/* */
+body#corpo {
+	background-color: #EEF4FB;
+	font: 12px verdana; 
+}
+
+div#geral {
+	margin: 0 auto;
+	width: 1130px;
+}
+
+div#menu {
+	background-color: #FFF;
+	height: 30px;
+	margin-bottom: 5px;
+	width: 100%;	
+	line-height:30px;
+}
+
+.login {
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 100px;
+	min-height: 230px;
+	width: 335px; 
+	margin-left: 333px;
+}
+
+.login-box {  
+  padding: 20px 25px 15px;  
+  border: 1px solid #e5e5e5;
+}
+
+.login-box h2 {
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  margin: 0 0 1.2em;
+  position: relative;
+}
+
+.login-box label {
+  display: block;
+  margin: 0 0 1.5em;
+}
+.login-box input[type=text],
+.login-box input[type=password] {
+  display: block;
+  width: 100%;
+  height: 32px;
+  font-size: 15px;
+}
+
+
+div#sub-conteudo {
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 5px;
+	min-height: 430px;
+	width: 1130px;
+}
+
+div#rodape {
+	background-color: #FFF;
+	clear: both;
+	height: 25px;
+	width: 100%;
+	color: #666;
+	text-align: right;	
+	text-shadow: blue;
+	line-height: 25px; 
+}
+
+div#conteudo {
+
+}
+
+div#menu, 
+div#rodape,
+div#sub-conteudo,
+div#topo,
+login {
+	border-radius: 8px; /* CSS3 */
+	-khtml-border-radius: 8px; /* Safari() */
+	-moz-border-radius: 8px; /* Mozilla */
+	-opera-border-radius: 8px; /* Opera */
+	-webkit-border-radius: 8px; /* Safari */
+}
